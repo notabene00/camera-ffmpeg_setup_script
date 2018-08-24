@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Git + инструменты для сборки
-sudo apt-get install git pkg-config autoconf automake libtool libx264-dev
+sudo apt-get install -y git pkg-config autoconf automake libtool libx264-dev
 
 # AAC
 git clone https://github.com/mstorsjo/fdk-aac.git
