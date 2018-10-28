@@ -24,7 +24,8 @@ sudo make install
 sudo npm i -g homebridge-camera-ffmpeg
 
 # Прибираемся
-sudo rm -rf fdk-aac FFmpeg
+cd ..
+sudo rm -rf ./camera-ffmpeg_setup_script
 
 # Предлагаем прописать уличную Питерскую камеру в конфиг
 cat << EOF
